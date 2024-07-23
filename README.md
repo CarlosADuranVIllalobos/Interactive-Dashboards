@@ -39,19 +39,22 @@ Interactive_Dashboards_Tableau/
 ```
 ## Usage
 
-1. **Data Preprocessing**:
-   - Execute the `data_preprocessing.ipynb` notebook to clean and preprocess the data.
-   - [Data Preprocessing Notebook](notebooks/data_preprocessing.ipynb)
+### Data Preprocessing:
 
-2. **Tableau Visualization**:
-   - Open Tableau Desktop or Tableau Public.
-   - Import the cleaned dataset (`cleaned_covid_data.csv`).
-   - Create interactive visualizations and dashboards.
-   - Save the Tableau workbook (`dashboard.twb`).
+- Execute the `data_preprocessing.ipynb` notebook to clean and preprocess the data.
+- [Data Preprocessing Notebook](notebooks/data_preprocessing.ipynb)
 
-3. **Embed Dashboard**:
-   - Publish your Tableau dashboard to Tableau Public.
-   - Embed the Tableau Public dashboard in your Jupyter Notebook or web application using an iframe.
+### Tableau Visualization:
+
+- Open Tableau Desktop or Tableau Public.
+- Import the cleaned dataset (`cleaned_covid_combined_data.csv`).
+- Create interactive visualizations and dashboards.
+- Save the Tableau workbook (`dashboard.twb`).
+
+### Embed Dashboard:
+
+- Publish your Tableau dashboard to Tableau Public.
+- Embed the Tableau Public dashboard in your Jupyter Notebook or web application using an iframe.
 
 ## Visualization
 
@@ -59,7 +62,8 @@ The project explores various interactive visualizations, including:
 
 - **World Map**: Total confirmed cases by country.
 - **Time Series Chart**: Trend of confirmed cases over time.
-- **Bar Chart**: Vaccination progress by country.
+- **Bar Chart**: Vaccination and testing progress by country.
+- **Line Chart**: Evolution of COVID-19 variants over time.
 
 The visualizations are created using Tableau's powerful data visualization tools.
 
@@ -74,8 +78,9 @@ You can view the interactive dashboards created with Tableau [here](https://publ
 The visualizations provide insights into:
 
 - The geographical distribution of COVID-19 cases.
-- The temporal trend of vaccinations.
-- Comparative analysis of vaccination progress among countries.
+- The temporal trend of vaccinations and testing.
+- Comparative analysis of vaccination and testing progress among countries.
+- The evolution and spread of COVID-19 variants.
 
 ## Contributing
 
@@ -86,4 +91,5 @@ Contributions are welcome! Please create an issue or submit a pull request for a
 This project is licensed under the MIT License.
 
 If you use this repository in your research, please cite it as shown in the right sidebar.
+
 
